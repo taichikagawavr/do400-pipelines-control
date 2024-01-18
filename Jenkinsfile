@@ -2,7 +2,7 @@ node('nodejs') {
 
 	stage('Checkout') {
 		git branch: 'main',
-			url: 'https://github.com/YOUR_GITHUB_USER/do400-pipelines-cntrol'
+			url: 'https://github.com/taichikagawavr/do400-pipelines-cntrol'
 	}
 
 	stage('Backend Tests') {
